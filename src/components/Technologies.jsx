@@ -1,9 +1,6 @@
-import { BiLogoMongodb, BiLogoPostgresql } from "react-icons/bi";
-import { DiDart, DiJavascript, DiJavascript1, DiMongodb, DiNodejs, DiPostgresql } from "react-icons/di";
-import { GiDart } from "react-icons/gi";
-import { RiDraftFill, RiFirebaseLine, RiFlutterFill, RiFlutterLine, RiNodejsLine, RiReactjsLine } from "react-icons/ri";
-import { SiDart, SiJavascript } from "react-icons/si";
-import { TbBrandMongodb } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { DiJavascript1, DiMongodb, DiNodejs, DiSwift } from "react-icons/di";
+import { RiFirebaseLine, RiFlutterFill, RiReactjsLine } from "react-icons/ri";
 
 const Technologies = () => {
     return (
@@ -16,6 +13,9 @@ const Technologies = () => {
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4:">
                     <RiReactjsLine className="text-7xl text-cyan-400" />
+                </div>
+                <div className="rounded-2xl border-4 border-neutral-800 p-4:">
+                    <DiSwift className="text-7xl text-orange-400" />
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4:">
                     <RiFirebaseLine className="text-7xl text-orange-400" />

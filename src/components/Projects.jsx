@@ -6,11 +6,16 @@ const Projects = () => {
         <div>
             {PROJECTS.map((project, index) => (
                 <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-                    <div className="w-full h-0 lg:w1/4">
-                        <img src={project.image} width={150} height={150} alt={project.title} className="mb-6" />
+                    <div className="mr-48 lg:w1/4">
+                        <a href={project.link}>
+
+                            <img src={project.image} width={150} height={150} alt={project.title} className="mb-6 object-contain w-32 h-32" />
+                        </a>
                     </div>
                     <div className="w-full max-w-xl lg:3/4">
-                        <h6 className="mb-2 font-semibold">{project.title}</h6>
+                        <a href={project.link}>
+                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                        </a>
                         <p className="mb-4 text-neutral-400">{project.description}</p>
                         {project.technologies.map((tech, index) => (
                             <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800 ">{tech}</span>

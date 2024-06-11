@@ -4,24 +4,24 @@ import project3 from "../assets/projects/portfoly.webp";
 import project4 from "../assets/projects/beep_logo.png";
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello! I'm Emir, a Fullstack developer with extensive experience in mobile application development. I’ve developed user-friendly and high-performance mobile apps using Flutter. On the backend, I create high-performance API services with Node.js and develop rapid prototypes with Firebase. Additionally, I manage and optimize databases using MongoDB and PostgreSQL. Utilizing modern technologies such as JavaScript and React Native for web development, I provide effective solutions for both mobile and web projects. I believe in the power of teamwork and prioritize working harmoniously with my team members to achieve successful project outcomes. My goal is to create innovative and scalable projects that make life easier through technology.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = ` I'm a third-year Management Information Systems student at Lefke European University in Northern Cyprus. I serve as a leader in the IT club, organizing events with my peers. I provide training in software development, sharing my knowledge and experience to help others grow together in the field. I highly value knowledge sharing and love working with enthusiastic individuals to learn new things together in the realm of software development. My goal is to create innovative and scalable projects that make life easier through technology while fostering a collaborative and supportive community.`;
 
 export const EXPERIENCES = [
     {
         year: "2022 - Present",
         role: "Freelance Software Developer",
         company: "Freelance",
-        description: `I have developed a mobile application that searches every game marketplace and shows the cheapest one. I have combined bunch of API's to build this application`,
-        technologies: ["Flutter", "Dart", "React", "NodeJS", "Javascript"],
+        description: `I have developed a mobile application "Cheap Game Deals" that searches every game marketplace and shows the cheapest one, i combined bunch of API's to build this application, and currently developing mobile apps to make life easier.`,
+        technologies: ["Flutter", "Dart", "Swift", "React", "NodeJS", "Javascript"],
     },
 
     {
-        year: "2023 - Present ",
+        year: "2023 - Present",
         role: "IT Club Leader",
         company: "European University of Lefke",
-        description: `With my IT club core team and members we are accomplishing and learning new things together.`,
+        description: `With my IT club management team and 200 members we are accomplishing and learning new things together. We made events like Flutter Basics, How to use GitHub What Is GitHub?, Fundamentals of User Interface Design, HTML/CSS Basics, Roadmaps to Software Development`,
         technologies: ["Team Management", "Leadership", "Improved Teaching Skills"],
     },
 
@@ -30,7 +30,7 @@ export const EXPERIENCES = [
         role: "IT Student Assistant",
         company: "European University of Lefke",
         description: `Monitored and resolved technical support request, and provided beneficial support to colleagues on any IT related issues.`,
-        technologies: ["", ""],
+        technologies: [],
     },
 
     {
@@ -38,14 +38,14 @@ export const EXPERIENCES = [
         role: "IT Assistant Specialist",
         company: "Arvato Bertelsmann Turkey",
         description: `Monitored and resolved technical support request, and provided beneficial support to colleagues on any IT related issues.`,
-        technologies: ["", ""],
+        technologies: [],
     },
     {
         year: "2018 - 2019 ",
         role: "IT Intern",
         company: "Arvato Bertelsmann Turkey",
         description: `Foundational computer networking knowledge including TCP/IP, LAN/WAN, routing & switching, and network management.`,
-        technologies: ["", ""],
+        technologies: [],
     },
 
 ];
@@ -54,35 +54,37 @@ export const PROJECTS = [
     {
         title: "Cheap Game Deals",
         image: project1,
+        link: "https://apps.apple.com/us/app/cheap-game-deals/id6455461097",
         description:
-            "I have developed a mobile application that searches every game marketplace and shows the cheapest one. I have combined bunch of API's to build this application",
+            `I have developed a mobile application named "Cheap Game Deals" that searches every game marketplace, compares the price and shows the cheapest game or software product available on Steam, its also showing current free promotions. I have combined bunch of API's to build this application.`,
         technologies: ["Flutter", "Dart"],
     },
     {
         title: "Patify",
         image: project2,
+        link: "",
         description:
-            "In development",
-        technologies: ["Flutter", "Dart,", "Firebase"],
+            "In development...",
+        technologies: ["Flutter", "Dart", "Firebase"],
     },
     {
         title: "Portfolio Website",
         image: project3,
+        link: "https://www.emir.codes",
         description:
-            "A personal portfolio website showcasing projects, skills, and contact information.",
-        technologies: ["HTML", "CSS", "React", "Bootstrap"],
+            "A personal portfolio website showcasing my projects, skills, and contact information.",
+        technologies: ["HTML", "CSS", "React", "Vite", "Javascript"],
     },
     {
         title: "Beep Inventory Manager",
         image: project4,
+        link: "https://www.youtube.com/watch?v=QhXybxU67BI",
         description:
-            "I made an inventory manager application for our phone accessory store .",
+            "I made an local inventory manager application for our phone accessory store.",
         technologies: [".NET", "C#", "MSSQL"],
     },
 ];
 
 export const CONTACT = {
-    address: "European University of Lefke, Northern Cyprus",
-    phoneNo: "+12 4555 666 00 ",
     email: "emir.byteson@gmail.com",
 };
